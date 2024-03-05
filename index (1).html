@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Recipe Website</title>
+</head>
+<body>
+    <nav>Recipes.</nav>
+    <div class="yellow-bar"></div>  
+    <div class="container">
+        <div class="title" id="recipe-title"></div>
+        <div class="inner-container">
+            <div id="ingredients">
+                <button id="next-recipe" onclick="getRecipe()">Next Recipe</button>
+                <div class="ingredients-title">Ingredients</div>
+                <div id="ingredients-list"></div>
+            </div>
+            <img src="" alt="recipe image" id="recipe-img">
+        </div>
+        <div id="instructions-title">Instructions</div>
+        <ol id="instructions"></ol>
+    </div>
+</body>
+</html>
